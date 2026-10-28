@@ -56,4 +56,8 @@ again at each gate, so the steps are found early and not at the end:
 
 | ID | Where (page › element or class) | Breakpoint | Set | Why the API can't | Done |
 | --- | --- | --- | --- | --- | --- |
-| A | | Desktop | | | ☐ |
+| A | Webflow dashboard › new site "Finaptive" built as the starter (`webflow-build/starter-site.md` §A–D: Base mode names, Label/Form classes, tag styles) | — | create the site, then authorise the `webflow-finaptive` MCP with only it ticked; tell Claude the site ID and staging subdomain | site creation and OAuth are account actions | ☐ |
+| B | GitHub › blankboard-studio/wf-finaptive › Settings › Pages | — | Source: GitHub Actions; add the developers team (Write) | repo settings, not code | ☐ |
+| C | Webflow › Site settings › Fonts | — | add Google Fonts Inter (400, 500, 600) and Poppins (400, 500) | site settings aren't in the MCP | ☐ |
+| D | Webflow › Site settings › Custom code | — | paste head and footer code from `loader.html` | site custom code isn't in the MCP | ☐ |
+| E | Webflow › staging | — | staging password and noindex until launch | site settings | ☐ |

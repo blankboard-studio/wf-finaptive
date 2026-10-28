@@ -1,0 +1,12 @@
+{
+  "prototypeUrl": "http://127.0.0.1:5966",
+  "stagingUrl": "https://finaptive.webflow.io",
+  "repoDir": ".",
+  "bundlePattern": "blankboard-studio\\.github\\.io/wf-finaptive/(index\\.js|styles\\.css)",
+  "widths": [
+    [1440, 900],
+    [820, 1180],
+    [390, 844]
+  ],
+  "pages": ["/"]
+}
