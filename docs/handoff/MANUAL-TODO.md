@@ -61,3 +61,5 @@ again at each gate, so the steps are found early and not at the end:
 | C | Webflow › Site settings › Fonts | — | add Google Fonts Inter (400, 500, 600) and Poppins (400, 500) | site settings aren't in the MCP | ☐ |
 | D | Webflow › Site settings › Custom code | — | paste head and footer code from `loader.html` | site custom code isn't in the MCP | ☐ |
 | E | Webflow › staging | — | staging password and noindex until launch | site settings | ☐ |
+| F | Home › Hero › S Bg Overlay Is Hero; Method › Method Line | All | gradients with colour variables (Ink → transparent; Accent → Calm → Ink 12) | gradients aren't settable through the MCP | ☐ |
+| G | C \| Button › Button Color variants White and Outline Light | All | create the two variants and their hover states | component variants are made in the Designer | ☐ |
